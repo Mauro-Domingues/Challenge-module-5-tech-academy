@@ -134,15 +134,15 @@
             <fieldset>
                 <legend class="contact">Entre em contato conosco</legend>
                 <form class="details">
-                    <input class="expanded" type="text" placeholder="Nome"/>
+                    <input id="name" class="expanded" type="text" placeholder="Nome"/>
                     <input class="expanded" type="email" placeholder="E-mail"/>
                     <input class="expanded" type="tel" placeholder="Telefone"/>    
-                    <label for="opcoes" class="half">O que você deseja fazer?</label>
+                    <p><label for="opcoes" class="half">O que você deseja fazer?</label>
                     <select name="opcao" id="opcoes" class="box pointer">
                     <option value="1" selected>Enviar um feedback</option>
                     <option value="2">Relatar um problema</option>
                     <option value="3">Entrar em contato com o suporte</option>
-                    </select>
+                    </select></p>
                     <p><label for="comment">Descreva a situação:</label>         
                     <textarea class="box" id="comment" name="comment" rows="5" cols="50" placeholder="Insira o texto aqui"></textarea></p>
                     <p><input type="checkbox" id="accept" class="pointer"/>

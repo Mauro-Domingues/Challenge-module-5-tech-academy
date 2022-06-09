@@ -25,9 +25,8 @@
     .container-main{
         padding: 0px 20px;
     }
-    footer{
-        align-items: center;
-        padding: 0;
+    footer fieldset{
+        width: 80%;
     }
 }
 
@@ -61,7 +60,6 @@
         height: 22px;
         width: 30px;
     }
-
     label span{
         position: absolute;
         display: block;
@@ -90,6 +88,23 @@
     #checkbox-menu:checked + label span:nth-child(3){
         transform: rotate(45deg);
         top: 8px;
+    }
+    footer fieldset{
+        min-width: 420px;
+        border-radius: 20px;
+    }
+    form .expanded{
+        max-width: 360px;
+        border-radius: 20px;
+    }
+    form .box{
+        max-width: 360px;
+    }
+    form [type="submit"].expanded{
+        border-radius: 20px;
+    }
+    form #name{
+        border-radius: 20px;
     }
 }
 
