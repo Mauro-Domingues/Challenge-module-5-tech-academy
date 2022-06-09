@@ -27,6 +27,7 @@
     }
     footer fieldset{
         width: 80%;
+        padding-left: 1%;
     }
 }
 
@@ -90,8 +91,9 @@
         top: 8px;
     }
     footer fieldset{
-        min-width: 420px;
+        width: 420px;
         border-radius: 20px;
+        padding: 0;
     }
     form .expanded{
         max-width: 360px;
@@ -111,5 +113,8 @@
 @media only screen and (max-width: 877px){
     .card-hidden{
         display: none;
+    }
+    footer fieldset{
+        padding-left: 0;
     }
 }
