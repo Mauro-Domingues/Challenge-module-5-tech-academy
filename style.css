@@ -9,7 +9,6 @@
 
 html, 
 body{
-    /*height: 100vh;*/
     font-family: "Source Sans Pro", 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -55,7 +54,7 @@ header .container img{
     height: 30px;
 }
 
-#checkbox-menu{ /**/
+#checkbox-menu{
     display: none;
 }
 
@@ -104,16 +103,16 @@ form.registration >*{
 form [type="submit"] {
     background-color: #0080ed;
     color: #ffffff;
-    width: 150px;/**/
+    width: 150px;
     padding-left: 0;
     font-size: 16px;
-    height: 40px;/**/
+    height: 40px;
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
     background-color: rgba(0,128,237,0.75);
-    transform: translateY(-2px);/**/
+    transform: translateY(-2px);
 }
 
 main .container-main img{
@@ -124,7 +123,7 @@ main .container-main img{
 
 a {
     text-decoration: none;
-}/**/
+}
 
 .cards{
     width: 90%;
