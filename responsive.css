@@ -1,17 +1,21 @@
-@media (max-width: 1000px){
-    main .container-main div{
+@media (max-width: 1000px) {
+    main .container-main div {
         margin: auto;
     }
-    main .container-main img{
+
+    main .container-main img {
         display: none;
     }
-    h2{
+
+    h2 {
         margin-left: 50px;
     }
-    div h3{
+
+    div h3 {
         margin-left: 50px;
     }
-    form.registration{
+
+    form.registration {
         display: flex;
         align-items: center;
         width: 100%;
@@ -19,49 +23,90 @@
         text-align: center;
         flex-direction: column;
     }
-    input{
+
+    input {
         margin: 12px;
     }
-    .container-main{
+
+    .container-main {
         padding: 0px 20px;
     }
-    footer fieldset{
+
+    footer fieldset {
         width: 80%;
         padding-left: 1%;
     }
 }
 
-@media (min-height: 631px){
+/*@media (min-height: 631px){
     .container-menu{
         display: none;
     }
-}
+}*/
 
-@media (max-width: 630px){
-    nav{
+@media (max-width: 630px) {
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        margin-top: 30px;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        left: 100%;
+        transform: translateX(100vw);
+        transition: 0.5s ease transform;
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        color: #ffffff;
+        background-color: #0080ed;
+        border-radius: 5px;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .menu li a {
+        flex: 1;
+        text-align: center;
+    }
+
+    /*nav{
+        display: none;
+    }*/
+    main .container-menu img {
         display: none;
     }
-    main .container-menu img{
-        display: none;
-    }
-    .container-menu{
+
+    /*.container-menu{
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    #checkbox-menu{
+    }*/
+    /*#checkbox-menu{
         position: absolute;
         opacity: 0;
-    }
-    label.mobile-menu{
+    }*/
+    label.mobile-menu {
         cursor: pointer;
         position: relative;
         display: block;
         height: 22px;
         width: 30px;
     }
-    label span{
+
+    label span {
         position: absolute;
         display: block;
         height: 5px;
@@ -70,51 +115,75 @@
         border-radius: 30px;
         transition: 0.25s ease-in-out;
     }
-    label span:nth-child(1){
+
+    label span:nth-child(1) {
         top: 0;
     }
-    label span:nth-child(2){
+
+    label span:nth-child(2) {
         top: 8px;
     }
-    label span:nth-child(3){
+
+    label span:nth-child(3) {
         top: 16px;
     }
-    #checkbox-menu:checked + label span:nth-child(1){
+
+    #checkbox-menu:checked+label span:nth-child(1) {
         transform: rotate(-45deg);
         top: 8px;
     }
-    #checkbox-menu:checked + label span:nth-child(2){
+
+    #checkbox-menu:checked+label span:nth-child(2) {
         opacity: 0;
     }
-    #checkbox-menu:checked + label span:nth-child(3){
+
+    #checkbox-menu:checked+label span:nth-child(3) {
         transform: rotate(45deg);
         top: 8px;
     }
-    footer fieldset{
+
+    /**/
+    nav.menu {
+        width: 100%;
+    }
+
+    #checkbox-menu:checked~nav .menu {
+        transform: translateX(-100vw);
+        transition: 0.5s ease transform;
+    }
+
+    /**/
+
+    footer fieldset {
         width: 420px;
         border-radius: 20px;
         padding: 0;
     }
-    form .expanded{
+
+    form .expanded {
         max-width: 360px;
         border-radius: 20px;
     }
-    form .box{
+
+    form .box {
         max-width: 360px;
     }
-    form [type="submit"].expanded{
+
+    form [type="submit"].expanded {
         border-radius: 20px;
     }
-    form #name{
+
+    form #name {
         border-radius: 20px;
     }
 }
 
-@media only screen and (max-width: 877px){
-    .card-hidden{
+@media only screen and (max-width: 877px) {
+    .card-hidden {
         display: none;
     }
-    footer fieldset{
+
+    footer fieldset {
         padding-left: 0;
     }
 }
