@@ -156,6 +156,8 @@
 
     form [type="submit"].expanded {
         border-radius: 20px;
+        width: 50%;
+        margin-left: 25%;
     }
 
     form #name {

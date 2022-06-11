@@ -109,10 +109,13 @@ form [type="submit"] {
     height: 40px;
 }
 
+form [type="submit"].transform:hover{
+    transform: translateY(-2px);
+}
+
 form [type="submit"]:hover{
     cursor: pointer;
     background-color: rgba(0,128,237,0.75);
-    transform: translateY(-2px);
 }
 
 main .container-main img{
@@ -221,15 +224,8 @@ footer fieldset{
     padding-left: 2%;
 }
 
-form.details{
-    padding-top: 0;
-    align-items: left;
-}
-
 form.details >*{
     margin: 5px 30px;
-    width: 90%;
-    align-items: center;
 }
 
 form .expanded{
@@ -254,6 +250,8 @@ form .pointer:hover{
 
 form [type="submit"].expanded{
     border-radius: 0 0 20px 0;
+    width: 75%;
+    padding: 0;
 }
 
 form #name{
