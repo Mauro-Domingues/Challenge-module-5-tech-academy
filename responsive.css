@@ -125,7 +125,7 @@
     }
 
     #checkbox-menu:not(:checked)~nav .menu li {
-        display: none;
+        display: none; /**/
     }
 
     #checkbox-menu:checked~nav .menu {
