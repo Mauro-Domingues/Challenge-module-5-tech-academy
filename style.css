@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
-html, 
-body{
+html,
+body {
     font-family: "Source Sans Pro", 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -16,11 +16,11 @@ body{
 
 /* Header */
 
-header{
+header {
     background-color: #0080ed;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,15 +29,15 @@ header .container{
     margin: auto;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -46,25 +46,25 @@ header nav ul li a{
     transition: all 250ms linear 0s;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.15);
 }
 
-header .container img{
+header .container img {
     height: 30px;
 }
 
-#checkbox-menu{
+#checkbox-menu {
     display: none;
 }
 
 /* Main */
 
-main{
+main {
     margin-bottom: 100px;
 }
 
-main .container-main{
+main .container-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,25 +72,25 @@ main .container-main{
     margin: 100px auto 0px auto;
 }
 
-h2{
+h2 {
     color: #000000;
     font-size: 45px;
     line-height: 50px;
     font-weight: bold;
 }
 
-h3{
-    color: rgb(131,131,131);
+h3 {
+    color: rgb(131, 131, 131);
     font-size: 20px;
     line-height: 28px;
     margin: 10px 0;
 }
 
-form{
+form {
     margin-top: 20px;
 }
 
-form.registration >*{
+form.registration>* {
     width: 380px;
     padding-left: 15px;
     font-size: 18px;
@@ -109,16 +109,16 @@ form [type="submit"] {
     height: 40px;
 }
 
-form [type="submit"].transform:hover{
+form [type="submit"].transform:hover {
     transform: translateY(-2px);
 }
 
-form [type="submit"]:hover{
+form [type="submit"]:hover {
     cursor: pointer;
-    background-color: rgba(0,128,237,0.75);
+    background-color: rgba(0, 128, 237, 0.75);
 }
 
-main .container-main img{
+main .container-main img {
     width: 600px;
 }
 
@@ -132,7 +132,7 @@ p.title-text--medium {
     color: #000000;
 }
 
-.cards{
+.cards {
     width: 90%;
     max-width: 980px;
     margin: auto;
@@ -141,18 +141,18 @@ p.title-text--medium {
     grid-gap: 20px;
 }
 
-.card-hidden{
+.card-hidden {
     visibility: hidden;
 }
 
-.text--medium{
+.text--medium {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: rgb(187,185,185);
+    color: rgb(187, 185, 185);
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -161,11 +161,11 @@ p.title-text--medium {
     border-radius: 10px;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-7px);
 }
 
-.image{
+.image {
     width: 100%;
     padding-top: 56.25%;
     overflow: hidden;
@@ -174,7 +174,7 @@ p.title-text--medium {
     height: 225px;
 }
 
-.image img{
+.image img {
     position: absolute;
     border-radius: 10px;
     top: 50%;
@@ -182,34 +182,34 @@ p.title-text--medium {
     transform: translate(-50%, -50%);
 }
 
-.content{
+.content {
     margin: 20px;
 }
 
-.title{
+.title {
     margin-bottom: 0px;
 }
 
 /*Footer*/
 
-footer{
+footer {
     font-size: 1em;
     display: flex;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
     flex-direction: column;
-    padding-bottom: 15px; 
-    background-image: linear-gradient(0deg, rgba(0,128,237,0.5) 0%, #ffffff 100%);
+    padding-bottom: 20px;
+    background-image: linear-gradient(0deg, rgba(0, 128, 237, 0.5) 0%, #ffffff 100%);
 }
 
-footer .contact{
+footer .contact {
     color: #000000;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
-footer fieldset{
+footer fieldset {
     display: block;
     margin-bottom: 30px;
     background-color: #ffffff;
@@ -224,11 +224,11 @@ footer fieldset{
     padding-left: 2%;
 }
 
-form.details >*{
+form.details>* {
     margin: 5px 30px;
 }
 
-form .expanded{
+form .expanded {
     width: 90%;
     padding-left: 15px;
     font-size: 18px;
@@ -237,23 +237,23 @@ form .expanded{
     border: 1px solid #0080ed;
 }
 
-form .box{
+form .box {
     padding: 2px;
     padding-left: 10px;
     border: 1px solid #0080ed;
     width: 90%;
 }
 
-form .pointer:hover{
+form .pointer:hover {
     cursor: pointer;
 }
 
-form [type="submit"].expanded{
+form [type="submit"].expanded {
     border-radius: 0 0 20px 0;
     width: 75%;
     padding: 0;
 }
 
-form #name{
+form #name {
     border-radius: 20px 0 0 0;
 }
