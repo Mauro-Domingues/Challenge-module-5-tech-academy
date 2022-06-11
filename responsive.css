@@ -127,6 +127,14 @@
         width: 100%;
     }
 
+    .container-menu input#checkbox:not(:checked) nav{
+        display: none;
+    }
+
+    .container-menu input#checkbox:checked nav{
+        display: flex;
+    }
+
     #checkbox-menu:checked~nav .menu {
         transform: translateX(-100vw);
         transition: 0.5s ease transform;

@@ -125,6 +125,10 @@ a {
     text-decoration: none;
 }
 
+p.title-text--medium {
+    color: #000000;
+}
+
 .cards{
     width: 90%;
     max-width: 980px;
@@ -182,6 +186,8 @@ a {
 .title{
     margin-bottom: 0px;
 }
+
+/*Footer*/
 
 footer{
     font-size: 1em;
