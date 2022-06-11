@@ -124,17 +124,11 @@
         top: 8px;
     }
 
-    nav.menu {
-        width: 100%;
-    }
-
-    #checkbox-menu:not(:checked)~nav .menu {
-        transform: translateX(100vw);
+    #checkbox-menu:not(:checked)~nav .menu li{
         display: none;
     }
 
     #checkbox-menu:checked~nav .menu {
-        display: flex;
         transform: translateX(-100vw);
         transition: 0.5s ease transform;
     }
@@ -156,8 +150,8 @@
 
     form [type="submit"].expanded {
         border-radius: 20px;
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     form #name {
