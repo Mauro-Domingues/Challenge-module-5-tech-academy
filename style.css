@@ -9,7 +9,7 @@
 
 html, 
 body{
-    height: 100vh;
+    /*height: 100vh;*/
     font-family: "Source Sans Pro", 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -53,6 +53,10 @@ header nav ul li a:hover{
 
 header .container img{
     height: 30px;
+}
+
+#checkbox-menu{ /**/
+    display: none;
 }
 
 /* Main */
@@ -100,10 +104,16 @@ form.registration >*{
 form [type="submit"] {
     background-color: #0080ed;
     color: #ffffff;
+    width: 150px;/**/
+    padding-left: 0;
+    font-size: 16px;
+    height: 40px;/**/
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
+    background-color: rgba(0,128,237,0.75);
+    transform: translateY(-2px);/**/
 }
 
 main .container-main img{
@@ -111,6 +121,10 @@ main .container-main img{
 }
 
 /* Cards*/
+
+a {
+    text-decoration: none;
+}/**/
 
 .cards{
     width: 90%;
@@ -138,6 +152,7 @@ main .container-main img{
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover{
@@ -149,6 +164,8 @@ main .container-main img{
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 
 .image img{
