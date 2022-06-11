@@ -90,10 +90,6 @@ form {
     margin-top: 20px;
 }
 
-form.registration{
-    display: flex;
-}
-
 form.registration>* {
     width: 380px;
     padding-left: 15px;
